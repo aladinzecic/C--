@@ -36,3 +36,18 @@
 //     }
 //     cout<<"vrsta sa najvise el bez ponavljanja je "<<maxbr+1<<" i ima el bez ponavljanja "<<max;
 //     return 0;
+
+
+
+// int main()
+// {int a,b;
+// bool flag=false;
+//     cout<<"unesi 2 broja";
+// cin>>a>>b;
+// if(a==b*b||a*a==b){
+//     cout<<"jeste";
+//     flag=true;
+// }
+// if(flag==false)cout<<"nije";
+
+//     return 0;
