@@ -65,3 +65,43 @@
 //     }
 //     for(i=0;i<n;i++)printf("%d",niz[i]);
 //     return 0;
+
+
+
+
+
+////1.	Napisati program kojim se k-ta vrsta matrice A uređuje rastuće. 
+//Učitavanje matrice i traženu obradu realizovati pomoću odvojenih potprograma. 
+// #include <iostream>
+
+// using namespace std;
+// void uredjivanje(int niz[],int n){
+//     int i,j,pom;
+//     for(i=0;i<n;i++){
+//         for(j=i+1;j<n;j++){
+//             if(niz[i]>niz[j]){
+//                 pom=niz[i];
+//                 niz[i]=niz[j];
+//                 niz[j]=pom;
+//             }
+//         }
+//     }
+// }
+// int main()
+// {   int i,n,m,j,k,mat[100][100];
+//     cout<<"unesi n,m i k";
+//     cin>>n>>m>>k;
+//     for(i=0;i<m;i++)
+//     for(j=0;j<n;j++)
+//     cin>>mat[i][j];
+//     for(i=0;i<m;i++){
+//         if(i==k)uredjivanje(mat[i],n);
+//     }
+//     for(i=0;i<m;i++){
+//         for(j=0;j<n;j++){
+//             cout<<mat[i][j];
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
