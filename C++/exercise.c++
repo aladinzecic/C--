@@ -51,3 +51,17 @@
 // if(flag==false)cout<<"nije";
 
 //     return 0;
+
+//int i,n,niz[100],pom,m,j;
+// printf("unesi n i m:");
+// scanf("%d %d",&n,&m);
+// for(i=0;i<n;i++)scanf("%d",&niz[i]);
+//     for(i=0;i<m;i++){
+//         pom=niz[0];
+//     for(j=0;j<n;j++){
+//         niz[j]=niz[j+1];
+//     }
+//     niz[n-1]=pom;
+//     }
+//     for(i=0;i<n;i++)printf("%d",niz[i]);
+//     return 0;
