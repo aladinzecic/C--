@@ -105,3 +105,75 @@
 //     }
 //     return 0;
 // }
+
+
+////2.Napisati program kojim se određuje da li je matrica A savršena. 
+//Matrica je savršena ako je suma elemenata svake vrste veća od nule. Za određivanje 
+//sume elemenata u vrsti napraviti funkciju. Učitavanje matrice A uraditi pomoću potprograma 
+// #include <iostream>
+
+// using namespace std;
+// bool suma(int niz[],int n){
+//     int i,suma=0;
+//     for(i=0;i<n;i++){
+//         suma+=niz[i];
+//     }
+//     if(suma>0)return true;
+//     return false;
+// }
+// int main()
+// {   int i,j,n,m,mat[100][100];
+//     bool flag=true;
+//     cout<<"uunesi n i m";
+//     cin>>n>>m;
+//     for(i=0;i<m;i++)
+//     for(j=0;j<n;j++){
+//         cin>>mat[i][j];
+//     }
+//     for(i=0;i<m;i++){
+//         flag=suma(mat[i],n);
+//         if(flag==false){
+            
+//             cout<<"matrica nije savrsena";
+//             break;
+//         }
+//     }
+//     if(flag==true)cout<<"matrica jeste savrsena";
+//     return 0;
+
+
+
+////3.Napisati program kojim se na izlazu ispisuje 1 ako u 
+// //svakoj koloni matrice postoji broj b. 
+// //Za ispitivanje napraviti funkciju. Učitavanje matrice A uraditi pomoću potprograma. 
+// #include <iostream>
+
+// using namespace std;
+// void postojanje(int mat[100][100],int n,int m,int br){
+//     int i,j,sum=0;
+//     bool flag=false;
+//     for(i=0;i<n;i++){
+//         for(j=0;j<m;j++){
+//             if(mat[j][i]==br){
+//                 flag=true;
+//                 sum++;
+//                 break;
+//             }
+//             flag=false;
+//         }
+//     }
+//     if(sum==n)printf("1");
+    
+    
+// }
+// int main()
+// {   int i,j,n,m,mat[100][100],broj;
+//     cout<<"uunesi n i m i broj";
+//     cin>>n>>m>>broj;
+//     for(i=0;i<m;i++)
+//     for(j=0;j<n;j++){
+//         cin>>mat[i][j];
+//     }
+//     postojanje(mat,n,m,broj);
+//     return 0;
+// }
